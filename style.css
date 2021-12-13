@@ -28,3 +28,21 @@ img {
   height: 16px;
   width: auto;
 }
+
+/* ç Jumbotron  */
+
+.jumbotron {
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+#returnal {
+  background-image: url(img/jumbo-bg.png);
+}
+
+.jumbo-logo {
+  width: 300px;
+}
