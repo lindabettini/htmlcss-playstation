@@ -110,3 +110,16 @@ section {
 #returnal {
   background-image: url(img/jumbo-bg.png);
 }
+
+#ps5-slider .slidecard {
+  height: 100%;
+  width: 100%;
+  opacity: 50%;
+  border-bottom: 2px solid transparent;
+}
+
+#ps5-slider .slidecard:hover {
+  opacity: 100%;
+  cursor: pointer;
+  border-bottom: 2px solid var(--blue-sky);
+}
