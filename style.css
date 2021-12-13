@@ -6,7 +6,7 @@ img {
 }
 
 section {
-  padding: 40px 0;
+  padding: 40px;
 }
 
 /* ç Colors  */
@@ -24,12 +24,20 @@ section {
   color: black;
 }
 
+.ms-minus-1 {
+  margin-left: -10px;
+}
+
 .btn {
   color: white;
 }
 
 .btn.red {
   background-color: var(--red);
+}
+
+.btn.light-blue {
+  background-color: var(--light-blue);
 }
 
 /* ç Header  */
@@ -58,10 +66,10 @@ section {
   color: white;
 }
 
-#returnal {
-  background-image: url(img/jumbo-bg.png);
-}
-
 .jumbo-logo {
   width: 300px;
+}
+
+#returnal {
+  background-image: url(img/jumbo-bg.png);
 }
