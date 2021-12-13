@@ -6,16 +6,52 @@ img {
 }
 
 section {
-  padding: 40px;
+  margin: 50px 0;
 }
 
 /* ç Colors  */
+
 :root {
-  --dark-grey: rgb(31, 31, 31);
   --light-grey: rgb(190, 188, 187);
+  --medium-grey: rgb(117, 117, 117);
+  --dark-grey: rgb(31, 31, 31);
   --red: rgb(205, 61, 15);
-  --light-blue: rgb(0, 67, 156);
+  --blue-sky: rgb(5, 117, 207);
+  --light-sky: rgb(45, 100, 230);
+  --medium-blue: rgb(0, 67, 156);
   --dark-blue: rgb(22, 28, 59);
+}
+
+.light-grey {
+  color: var(--light-grey);
+}
+
+.medium-grey {
+  color: var(--medium-grey);
+}
+
+.dark-grey {
+  color: var(--dark-grey);
+}
+
+.blue-sky {
+  color: var(--blue-sky);
+}
+
+.light-blue {
+  color: var(--light-blue);
+}
+
+.medium-blue {
+  color: var(--medium-blue);
+}
+
+.dark-blue {
+  color: var(--dark-blue);
+}
+
+.red {
+  color: var(--red);
 }
 
 /* ç Utilities  */
@@ -36,8 +72,8 @@ section {
   background-color: var(--red);
 }
 
-.btn.light-blue {
-  background-color: var(--light-blue);
+.btn.blue-sky {
+  background-color: var(--blue-sky);
 }
 
 /* ç Header  */
@@ -59,6 +95,7 @@ section {
 /* ç Jumbotron  */
 
 .jumbotron {
+  padding: 40px;
   height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
