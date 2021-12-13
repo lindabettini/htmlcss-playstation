@@ -111,6 +111,12 @@ section {
   background-image: url(img/jumbo-bg.png);
 }
 
+#it-takes-two {
+  background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+/* ç PS-5 SECTION  */
+
 #ps5-slider .slidecard {
   height: 100%;
   width: 100%;
