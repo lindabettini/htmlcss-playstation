@@ -3,9 +3,25 @@ img {
   max-height: 100%;
 }
 
+/* ç Utilities  */
+
+.black-text {
+  color: black;
+}
+
+.btn {
+  padding: 0 15px;
+}
+
+/* ç Header  */
+
 #top-header {
   height: 30px;
   background-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
 }
 
 #sony-logo {
