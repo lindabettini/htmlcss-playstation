@@ -3,6 +3,15 @@ img {
   max-height: 100%;
 }
 
+/* ç Colors  */
+:root {
+  --dark-grey: rgb(31, 31, 31);
+  --light-grey: rgb(190, 188, 187);
+  --red: rgb(205, 61, 15);
+  --light-blue: rgb(0, 67, 156);
+  --dark-blue: rgb(22, 28, 59);
+}
+
 /* ç Utilities  */
 
 .black-text {
