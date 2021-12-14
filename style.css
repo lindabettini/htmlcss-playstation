@@ -107,6 +107,11 @@ section {
   width: 300px;
 }
 
+.jumbo-title,
+.jumbo-p {
+  margin: 25px 0;
+}
+
 #returnal {
   background-image: url(img/jumbo-bg.png);
 }
