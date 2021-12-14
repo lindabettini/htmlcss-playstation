@@ -68,6 +68,11 @@ section {
   color: white;
 }
 
+.btn.light {
+  background-color: rgba(255, 255, 255, 0.596);
+  color: var(--blue-sky);
+}
+
 .btn.orange {
   background-color: var(--orange);
 }
@@ -146,4 +151,14 @@ section {
   color: white;
   text-decoration: none;
   cursor: pointer;
+}
+
+/* ç PS-PLUS SECTION  */
+
+#ps-plus {
+  background-color: var(--light-grey);
+}
+
+.logo-plus {
+  width: 300px;
 }
