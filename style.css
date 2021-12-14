@@ -17,7 +17,7 @@ section {
   --dark-grey: rgb(31, 31, 31);
   --red: rgb(205, 61, 15);
   --blue-sky: rgb(5, 117, 207);
-  --light-sky: rgb(45, 100, 230);
+  --light-blue: rgb(45, 100, 230);
   --medium-blue: rgb(0, 67, 156);
   --dark-blue: rgb(22, 28, 59);
 }
@@ -72,7 +72,7 @@ section {
   background-color: var(--red);
 }
 
-.btn.medium-blue {
+.btn.blue-sky {
   background-color: var(--blue-sky);
 }
 
