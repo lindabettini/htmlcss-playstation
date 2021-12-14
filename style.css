@@ -198,6 +198,9 @@ footer li a {
   color: white;
 }
 
+.footer-logo {
+  width: 100px;
+}
 .sie-logo {
-  width: 150px;
+  width: 200px;
 }
