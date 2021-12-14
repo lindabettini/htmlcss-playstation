@@ -15,7 +15,7 @@ section {
   --light-grey: rgb(190, 188, 187);
   --medium-grey: rgb(117, 117, 117);
   --dark-grey: rgb(31, 31, 31);
-  --red: rgb(205, 61, 15);
+  --orange: rgb(205, 61, 15);
   --blue-sky: rgb(5, 117, 207);
   --light-blue: rgb(45, 100, 230);
   --medium-blue: rgb(0, 67, 156);
@@ -50,8 +50,8 @@ section {
   color: var(--dark-blue);
 }
 
-.red {
-  color: var(--red);
+.orange {
+  color: var(--orange);
 }
 
 /* ç Utilities  */
@@ -68,8 +68,8 @@ section {
   color: white;
 }
 
-.btn.red {
-  background-color: var(--red);
+.btn.orange {
+  background-color: var(--orange);
 }
 
 .btn.blue-sky {
