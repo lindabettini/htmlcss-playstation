@@ -71,6 +71,11 @@ section {
   color: white;
 }
 
+.btn.white {
+  background-color: white;
+  color: var(--dark-blue);
+}
+
 .btn.light {
   background-color: rgba(255, 255, 255, 0.596);
   color: var(--blue-sky);
@@ -168,5 +173,15 @@ header {
 }
 
 .logo-plus {
+  width: 300px;
+}
+
+/* ç PS-PLUS SECTION  */
+
+#ps-now {
+  background-color: var(--dark-blue);
+}
+
+.logo-ps-now {
   width: 300px;
 }
