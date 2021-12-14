@@ -132,7 +132,13 @@ section {
 
 /* ç NEW-REALISES SECTION  */
 
-#new-realises {
+#new-releases {
   background-color: var(--dark-grey);
   color: white;
+}
+
+.release-card a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
