@@ -193,6 +193,10 @@ footer {
   color: white;
 }
 
+footer li {
+  margin-bottom: 8px;
+}
+
 footer li a {
   text-decoration: none;
   color: white;
