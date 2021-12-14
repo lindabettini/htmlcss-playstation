@@ -185,3 +185,19 @@ header {
 .logo-ps-now {
   width: 300px;
 }
+
+/* ç FOOTER  */
+
+footer {
+  background-color: var(--medium-blue);
+  color: white;
+}
+
+footer li a {
+  text-decoration: none;
+  color: white;
+}
+
+.sie-logo {
+  width: 150px;
+}
