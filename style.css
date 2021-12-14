@@ -67,8 +67,20 @@ section {
   margin-left: -10px;
 }
 
+/* ç Buttons  */
+
 .btn {
   color: white;
+}
+
+.btn.bg-dark {
+  border: 1px solid transparent;
+  box-shadow: 0px 0px 0px 2px rgb(33, 37, 41);
+}
+
+.btn.bg-dark:hover {
+  color: white;
+  border: 1px solid white;
 }
 
 .btn.white {
