@@ -279,6 +279,11 @@ footer li a {
   color: white;
 }
 
+footer li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
 .footer-logo {
   width: 100px;
 }
