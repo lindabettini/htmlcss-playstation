@@ -20,7 +20,6 @@ section {
   --dark-grey: rgb(31, 31, 31);
   --orange: rgb(205, 61, 15);
   --blue-sky: rgb(5, 117, 207);
-  --light-blue: rgb(45, 100, 230);
   --medium-blue: rgb(0, 67, 156);
   --dark-blue: rgb(22, 28, 59);
 }
@@ -39,10 +38,6 @@ section {
 
 .blue-sky {
   color: var(--blue-sky);
-}
-
-.light-blue {
-  color: var(--light-blue);
 }
 
 .medium-blue {
