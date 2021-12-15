@@ -169,16 +169,11 @@ header {
 /* ç Jumbotron  */
 
 .jumbotron {
-  padding: 40px;
-  height: 600px;
+  padding-top: 250px;
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   color: white;
-}
-
-.jumbo-logo {
-  width: 300px;
 }
 
 .jumbo-title,
