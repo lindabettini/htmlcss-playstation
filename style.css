@@ -191,9 +191,18 @@ header {
 
 /* ç Jumbotron Slider  */
 
-.slide-card.active {
+.jumbo-slide-card.active {
   border: 2px solid var(--blue-sky);
   border-radius: 0.3rem;
+}
+
+.jumbo-slide-card {
+  transition: transform 0.3s ease;
+}
+
+.jumbo-slide-card:hover {
+  cursor: pointer;
+  transform: translateY(-15px);
 }
 
 /* ç PS-5 SECTION  */
