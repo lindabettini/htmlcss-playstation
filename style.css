@@ -207,14 +207,19 @@ header {
 
 /* ç PS-5 SECTION  */
 
-#ps5-slider .ps5-slidecard {
+.ps5-slidecard {
   height: 100%;
   width: 100%;
   opacity: 50%;
   border-bottom: 2px solid transparent;
 }
 
-#ps5-slider .ps5-slidecard:hover {
+.ps5-slidecard.active {
+  opacity: 100%;
+  border-bottom: 2px solid var(--blue-sky);
+}
+
+.ps5-slidecard:hover {
   opacity: 100%;
   cursor: pointer;
   border-bottom: 2px solid var(--blue-sky);
