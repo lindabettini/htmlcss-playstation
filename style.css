@@ -194,6 +194,18 @@ header {
   background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+@media screen and (min-width: 576px) {
+  .jumbo-logo {
+    max-width: 350px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .jumbo-logo {
+    max-width: 100%;
+  }
+}
+
 /* ç Jumbotron Slider  */
 
 .jumbo-slide-card.active {
